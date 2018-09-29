@@ -11,7 +11,7 @@ We'll be uploading with a proper introduction shortly.
 # Instructions
 These are for folks using Linux, Mac OSX. Windows people have to download git bash separately.
 
-##Basic Procedures
+## Basic Procedures
 * Make a new repository in your account
   * There will be an option `Initialize with README`. Check that option.
 
@@ -34,8 +34,8 @@ These are for folks using Linux, Mac OSX. Windows people have to download git ba
       * You'll end up with an error message saying that your local repository is not up-to-date with your online(remote) repository. This happens, because you have a README.md in the online repo which is not present in your local repository.`git pull origin master` will pull all the contents from the online(remote) repo to your local repo. Now proceed with: `git push origin master`
 
 
-##Making Contributions
-###Basic
+## Making Contributions
+### Basic
 * Make a fork of this repository
 * Clone your fork to your device (`git clone <url>` where \<url\> is the url of the forked repository that is in your account and not `https://github.com/OSDLabs/git-task`)
 * Create a new branch named `contrib` (`git checkout -b contrib`)
